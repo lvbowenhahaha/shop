@@ -12,3 +12,4 @@
 
 
 ***如果还有其他Bug，请提Issues。***
+乱码了在server.xml的Connector中添加属性URIEncoding="UTF-8"
