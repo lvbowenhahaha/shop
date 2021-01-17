@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
-
+//aaa
 /**
  * Created by 文辉 on 2017/7/27.
  */
@@ -68,7 +68,7 @@ public class ActivityController {
 
         return Msg.success("获取活动信息成功").add("activity",activityList);
     }
-
+///aaa
     @RequestMapping("/add")
     public String showAddActivity(HttpSession session) {
         Admin admin = (Admin) session.getAttribute("admin");
