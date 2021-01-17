@@ -18,6 +18,7 @@ import java.util.List;
 /**
  * Created by 文辉 on 2017/7/27.
  */
+//aaa
 @Controller
 @RequestMapping("/admin/activity")
 public class ActivityController {
